@@ -1,0 +1,90 @@
+p {
+  font-family: Helvetica, Arial;
+  font-size: 18px;
+}
+b {
+  font-size: 20px;
+}
+
+nav {
+  z-index: 9001;
+  width: 100%;
+  background-color: #000000;
+  position: fixed; 
+  top: 0;
+}
+
+.navlinks {
+  padding: 0px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.navlinks ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.navlinks ul li a {
+  padding: 5px ;
+  color: white;
+  font-size: 1.3em;  
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.navlinks ul li a img {
+height: 150px;
+}
+.navlinks ul li a:hover {
+  color: #add8e6;
+}
+.navlinks ul li a.active {
+  border-bottom: 2px solid red;
+}
+
+section {
+  width: 100%;
+  padding: 50px;
+  background-color: #ecf0f1;
+  min-height: 100vh;
+  text-align: center;
+}
+section:nth-child(1) {
+  margin-top: 100px;
+}
+
+.well {
+  padding-top: 0;
+	margin-left: 0px;
+  text-align: left;
+}
+
+.well p {
+	font-size: 14px;
+}
+
+.home {
+  margin-top: 100px;
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  padding: 50px;
+  background-color: #bdc3c7;
+  text-align: center;
+}
+
+.divider {
+ height: 1px;
+ overflow: hidden;
+ background-color: red;
+ margin-bottom: 10px;
+}
+
+.emphasis {
+color: red;
+text-decoration: underline;
+font-weight: 900;
+}
+
