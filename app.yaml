@@ -9,10 +9,13 @@ handlers:
   static_files: logo.png
   upload: logo.png
 # image files
-- url: /(.*\.(gif|png|jpg))$
-  static_files: static/\1
-  upload: /(.*\.(gif|png|jpg))$
+#- url: /(.*\.(gif|png|jpg))$
+#  static_files: static/\1
+#  upload: /(.*\.(gif|png|jpg))$
 
+- url: /images
+  static_dir: static/images
+   
 - url: /stylesheets
   static_dir: stylesheets
   
