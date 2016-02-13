@@ -107,3 +107,18 @@ font-weight: 900;
   width: 100%;
 
 }
+#logo-mobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+#logo {
+  display: none;
+}
+
+#logo-mobile {
+  height: 150px;
+  display: inline;
+  text-align: center;
+}
+}
