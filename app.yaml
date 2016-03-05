@@ -8,10 +8,10 @@ handlers:
 - url: .*/logo.png
   static_files: logo.png
   upload: logo.png
-# image files
-#- url: /(.*\.(gif|png|jpg))$
-#  static_files: static/\1
-#  upload: /(.*\.(gif|png|jpg))$
+  
+- url: /favicon\.ico
+  static_files: static/images/favicon.ico
+  upload: static/images/favicon\.ico
 
 - url: /images
   static_dir: static/images
