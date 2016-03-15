@@ -108,12 +108,24 @@ color: red;
 text-decoration: underline;
 font-weight: 900;
 }
+
 .carousel img{
   width: 100%;
 
 }
+
+.well {
+  min-height: 240px;
+
+}
+
 #logo-mobile {
   display: none;
+}
+
+#phone {
+  position: relative;
+  top: 15px;
 }
 
 @media (max-width: 767px) {

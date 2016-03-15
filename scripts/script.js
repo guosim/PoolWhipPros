@@ -48,6 +48,7 @@ $("#s5").click(function() {
   return false;
  });
 */
+
 /*
 Using jquery waypoints to change active on scroll
 */
